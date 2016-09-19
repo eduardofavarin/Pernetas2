@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".activity.ActivityCadastrarJogador">
+
+    <item
+        android:id="@+id/fechar_janela"
+        android:icon="@mipmap/fechar"
+        android:title="@string/action_fechar"
+        app:showAsAction="always" />
+</menu>

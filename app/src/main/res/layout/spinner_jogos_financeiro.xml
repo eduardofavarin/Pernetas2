@@ -1,0 +1,9 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/card_item_text"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="@color/texto"
+    android:padding="5dip"
+/>

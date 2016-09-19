@@ -1,0 +1,52 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="favarin.com.br.pernetas2.fragments.FragmentFinanceiro">
+
+    <include
+        layout="@layout/content_fragment_financeiro" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabMenuF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/fab_margin"
+        fab:menu_colorNormal="@color/colorFAB"
+        fab:menu_colorPressed="@color/colorFABPressed"
+        fab:menu_icon="@mipmap/moeda"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabConsultarDinheiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pesquisar_financeiro"
+            fab:fab_colorNormal="@color/colorFAB"
+            fab:fab_colorPressed="@color/colorFABPressed"
+            fab:fab_label="@string/fab_consultar_dinehiro" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAdicionarDinheiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/adicionar_financeiro"
+            fab:fab_colorNormal="@color/colorFAB"
+            fab:fab_colorPressed="@color/colorFABPressed"
+            fab:fab_label="@string/fab_mais_dinheiro" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabRelatorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/relatorio"
+            fab:fab_colorNormal="@color/colorFAB"
+            fab:fab_colorPressed="@color/colorFABPressed"
+            fab:fab_label="@string/fab_relatorio" />
+    </com.github.clans.fab.FloatingActionMenu>
+</android.support.design.widget.CoordinatorLayout>
+

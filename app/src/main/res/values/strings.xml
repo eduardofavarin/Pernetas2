@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Pernetas F.C.</string>
+
+    <!-- Activity -->
+    <string name="title_activity_activity_futebol">Futebol</string>
+    <string name="title_activity_activity_futsal">Futsal</string>
+    <string name="title_activity_activity_society">Society</string>
+    <string name="title_activity_activity_personalizado">Personalizado</string>
+
+    <!-- Action Bar -->
+    <string name="action_proximo">Próximo</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_fechar">Fechar</string>
+
+    <!-- Fab Button -->
+    <string name="fab_consultar_dinehiro">Mais Detalhes</string>
+    <string name="fab_mais_dinheiro">Incluir Pagamento</string>
+    <string name="fab_despesa">Incluir Despesa</string>
+
+    <string name="fab_relatorio">Relatório</string>
+    <string name="adicionar_jogador">Adicionar Jogador</string>
+    <string name="title_activity_activity_cadastrar_jogador">Contratar</string>
+
+    <!-- Cadastrar Jogador -->
+    <string name="nome_jogador">Nome do Perneta:</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="goleiro">Goleiro</string>
+    <string name="linha">Linha</string>
+    <string name="nome_jogador_error">Nome inválido!</string>
+
+    <!-- Content Jogo -->
+    <string name="qtd_jogos">Número de Jogos</string>
+    <string name="num_gols">Gols Marcados</string>
+    <string name="gols_sofridos">12 gols sofridos</string>
+    <string name="gols_marcados">42 gols marcados</string>
+    <string name="min_jogados">Minutos Jogados</string>
+    <string name="artilheiro">Jogador Artilheiro</string>
+    <string name="melhor_goleiro">Goleiro Menos Vazado</string>
+    <string name="proximo_jogo">Próximo Jogo</string>
+
+    <!-- Content Financeiro -->
+    <string name="mes_corrente">Mês Corrente</string>
+    <string name="acumulado">Saldo Acumulado</string>
+    <string name="a_receber">À Receber</string>
+    <string name="recebido">Recebido</string>
+    <string name="gerenciar">Gerenciar</string>
+    <string name="financas_jogo">Selecione o jogo para controlar as finanças</string>
+
+    <!-- Spinner Test -->
+        <string-array name="spnJogos">
+            <item>Jogão</item>
+            <item>Pelada</item>
+            <item>Fim de Semana</item>
+            <item>Racha da Firma</item>
+            <item>Society Night</item>
+        </string-array>
+
+    <!-- Fotos de Perfil -->
+    <string-array name="arrayAvatar">
+        <item>profile1</item>
+        <item>profile2</item>
+        <item>profile3</item>
+        <item>profile4</item>
+        <item>profile5</item>
+        <item>profile6</item>
+        <item>profile7</item>
+        <item>profile8</item>
+        <item>profile9</item>
+        <item>profile10</item>
+        <item>profile11</item>
+        <item>profile12</item>
+        <item>profile13</item>
+        <item>profile14</item>
+        <item>profile15</item>
+        <item>profile16</item>
+        <item>profile17</item>
+        <item>profile18</item>
+        <item>profile19</item>
+        <item>profile20</item>
+    </string-array>
+</resources>

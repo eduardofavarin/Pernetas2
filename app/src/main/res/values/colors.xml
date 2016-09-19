@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b0c233</color>
+    <color name="colorPrimaryDark">#9cb300</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#ebbc00</color>
+    <color name="azul_brasao">#470251</color>
+    <color name="vermelho">#dd0606</color>
+    <color name="branco">#FFF</color>
+    <color name="texto">#747474</color>
+
+    <color name="colorFAB">#b0c233</color>
+    <color name="colorFABPressed">#9cb300</color>
+</resources>

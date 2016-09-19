@@ -1,0 +1,61 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="favarin.com.br.pernetas2.fragments.FragmentJogo">
+
+    <include
+        layout="@layout/content_fragment_jogo" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        fab:menu_colorNormal="@color/colorFAB"
+        fab:menu_colorPressed="@color/colorFABPressed"
+        fab:menu_icon="@mipmap/bola"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_labels_style="@style/fab_labels_style"
+       >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabFutebol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/chuteira"
+            fab:fab_colorNormal="@color/colorAccent"
+            fab:fab_label="@string/title_activity_activity_futebol" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabFutsal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/gol"
+            fab:fab_colorNormal="@color/colorAccent"
+            fab:fab_label="@string/title_activity_activity_futsal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabSociety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/apito"
+            fab:fab_colorNormal="@color/colorAccent"
+            fab:fab_label="@string/title_activity_activity_society" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabPersonalizado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/jogador"
+            fab:fab_colorNormal="@color/colorAccent"
+            fab:fab_label="@string/title_activity_activity_personalizado" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>
+
